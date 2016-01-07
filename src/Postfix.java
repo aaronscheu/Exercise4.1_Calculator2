@@ -57,7 +57,7 @@ public class Postfix {
         String output = "";
 
         for (String st : split) {
-
+            if (st.equals(" ") || st.equals("")) continue;
             if (isOperand(st))
                 output += st + " ";
 

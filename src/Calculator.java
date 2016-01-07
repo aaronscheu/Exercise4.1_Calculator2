@@ -96,7 +96,8 @@ public class Calculator {
         /******************* Testcase_5 *******************/
         engine.input("AC");
 
-        engine.input("20");
+        engine.input("2");
+        engine.input("0");
         engine.input("/");
         engine.input("4");
 
@@ -112,8 +113,8 @@ public class Calculator {
         engine.input("AC");
 
         engine.input("2");
-        engine.input("");
         engine.input("^");
+        engine.input("3");
 
         System.out.printf("Testcase 6: \nRead Displayvalue: %s \n", engine.getDisplayValue());
 
@@ -146,7 +147,7 @@ public class Calculator {
         engine.input("AC");
 
         engine.input("3");
-        engine.input("");
+        engine.input("-");
         engine.input("(");
         engine.input("1");
         engine.input("+");
@@ -158,7 +159,7 @@ public class Calculator {
         engine.input("=");
 
         System.out.printf("Read Result:     %s \n", engine.getDisplayValue());
-        System.out.printf("Expected Result: 9\n");
+        System.out.printf("Expected Result: 1\n");
         System.out.printf("################################\n\n");
 
         /******************* Testcase_9 *******************/
@@ -307,7 +308,7 @@ public class Calculator {
         engine.input("=");
 
         System.out.printf("Read Result:     %s \n", engine.getDisplayValue());
-        System.out.printf("Expected Result: 8\n");
+        System.out.printf("Expected Result: 61\n");
         System.out.printf("################################\n\n");
 
         /******************* Testcase_15 *******************/
